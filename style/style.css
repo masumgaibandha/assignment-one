@@ -150,8 +150,10 @@ nav ul{
   font-size: 80px;
   font-weight: bold;
   color: #4E47FF;
-  
-  
+}
+.item-description{
+  font-size: 20px;
+  color: #000000;
 }
 
 /* shared style */
@@ -167,6 +169,62 @@ nav ul{
 .btn-primary:hover {
   background-color: #FF6B6B;
   cursor: pointer;
+}
+
+.column-form{
+  display: flex;
+  justify-content: space-around;
+  gap: auto;
+  margin: 0 150px;
+  align-items: center;
+
+}
+
+.section-column{
+  width: 50%;
+  margin: 0 150px 71px;
+  
+}
+
+.contact-title{
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+  
+}
+.area-fill{
+  width: 497px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  
+  
+}
+.area-fill-message{
+  width: 497px;
+  height: 167px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.area-fill::placeholder, .area-fill-message::placeholder{
+  font-size: 20px;
+  padding: 20px 200px 20px 32px;
+  color: #000000;
+}
+.get-touch{
+  height: 62px;
 }
 
 
