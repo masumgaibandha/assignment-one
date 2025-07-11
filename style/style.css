@@ -42,6 +42,7 @@ nav{
   color: #4E47FF;
   font-weight: 900px;
   font-size: 34px;
+  cursor: pointer;
 }
 nav ul li{
   list-style: none;
@@ -78,6 +79,14 @@ nav ul{
   padding: 0px 20px;
   text-align: center;
   
+  
+  }
+  
+.stay-focused a{
+  text-decoration: none;
+  color: white;
+
+
 }
 
 /* Action Style */
@@ -107,6 +116,11 @@ nav ul{
 
 .action-title-button{
   margin-top: 10px;
+ 
+}
+.action-title-button a{
+   text-decoration: none;
+  color: white;
 }
 
 .action-profile-picture{
@@ -165,6 +179,7 @@ nav ul{
   font-size: 16px;
   font-weight: bold;
   border: none;
+  
 }
 .btn-primary:hover {
   background-color: #FF6B6B;
@@ -250,8 +265,11 @@ nav ul{
   align-items: center;
   justify-content: center;
   margin-top: 150px;
-  
+}
 
+.web-conf a{
+  text-decoration: none;
+  color: white;
 }
 
 .conf-container{
@@ -338,6 +356,11 @@ nav ul{
 }
 .get-touch{
   height: 62px;
+}
+
+.get-touch a{
+  text-decoration: none;
+  color: white;
 }
 
 /* footer style */
